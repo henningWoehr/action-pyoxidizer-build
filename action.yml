@@ -67,7 +67,7 @@ runs:
 
     - if: inputs.use-own-pyoxidizer-config == 'false'
       name: Get pyoxidizer build file
-      run: curl https://raw.githubusercontent.com/henningWoehr/action-pyoxidizer-build/v1.0.0/pyoxidizer.bzl > pyoxidizer.bzl
+      run: curl https://raw.githubusercontent.com/henningWoehr/action-pyoxidizer-build/add-option-for-using-lib/pyoxidizer.bzl > pyoxidizer.bzl
       shell: pwsh
 
     - name: Set build variables
